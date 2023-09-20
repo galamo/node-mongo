@@ -34,4 +34,4 @@ const triangle = { area: 11, x:1,y:2,  }
 2. sign up and connect with 3T
 3. https://www.mongodb.com/docs/manual/reference/method/db.collection.find/
 4. uri connect => mongodb://localhost:27017
-
+5. query example: db.Vehicles.find({ "Horsepower" : { "$gte": 210 } }, { "Name":true })
