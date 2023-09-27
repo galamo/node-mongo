@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 // mongoose.set("strictQuery", false)
 
-const mongoDBUrl = "mongodb://localhost:27017/testSchema"
+const mongoDBUrl = "mongodb://localhost:27017/Vehicles"
 
 async function mainConnection() {
     await mongoose.connect(mongoDBUrl)
